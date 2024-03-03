@@ -1,0 +1,14 @@
+{
+  "name": "easy-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "charles",
+  "license": "MIT",
+  "bin": {
+    "easy-cli": "./src/index.js",
+    "debug": "cross-evn NODE_ENV=development node --inspect-brk ./node-modules/webpack-cli/bin/cli.js -c ./config/webpack.dev.js"
+  },
+  "dependencies": {
+    "commander": "^12.0.0"
+  }
+}
